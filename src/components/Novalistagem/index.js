@@ -31,5 +31,5 @@ const Listagem = ({ buttonDelete, listCheck, listaTarefas}) => {
         ))}
     </ul>
 )};
- ////////////
+
 export default Listagem;
