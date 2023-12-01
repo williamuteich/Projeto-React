@@ -1,0 +1,29 @@
+.listaTarefas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .listaTarefas li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border: 1px solid #00000021;
+    padding: 4px 6px;
+    cursor: pointer;
+  }
+
+  
+.listaChecked{
+    color: #b2bec3;
+    text-decoration: line-through;
+  }
+
+.buttonDelete{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #ff000099;
+
+}
+  
